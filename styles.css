@@ -1,0 +1,84 @@
+body {
+  background: lightblue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#main-title {
+  color: darkblue;
+  text-shadow: 1px 1px 2px gray;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid darkblue;
+  object-fit: cover; 
+  margin: 15px 0;
+
+
+}
+
+.intro {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+.hobbies, .socials {
+  width: 40%;
+}
+
+.hobby-list {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.social-links {
+  list-style: none;
+  padding-left: 0;
+}
+.social-links a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+.social-links a:hover {
+  color: navy;
+  text-decoration: underline;
+}
+
+.contact-link {
+  display: inline-block;
+  margin: 25px auto;
+  padding: 10px 16px;
+  background: darkblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.contact-link {
+  background: navy;
+}
+
+.footer {
+  font-size: 14px;
+  color: gray;
+  margin: 30px 0 10px 0;
+}
